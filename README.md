@@ -63,9 +63,9 @@ simulador_escalonamento/
 
 ## Documentação
 
-- [Tutorial de execucao](./docs/tutorial_execucao.pdf)
-- [Tutorial de uso](./docs/tutorial_uso.pdf)
-- [Documentacao tecnica](./docs/documentacao_projeto.pdf)
+- [Tutorial de execucao](./tutorial_execucao.pdf)
+- [Tutorial de uso](./tutorial_uso.pdf)
+- [Documentacao tecnica](./documentacao_projeto.pdf)
 
 ## Por onde começar
 
