@@ -4,8 +4,8 @@ Projeto prático da disciplina de Sistemas Operacionais, do 8º semestre do curs
 
 ## Autoria
 - Henrique Alves Ferreira
-- Matheus da Silva Souza
 - Gabriel Melo Santos
+- Matheus da Silva Souza
 - Rafael Ruppert Barrocal
 
 ## Descrição
@@ -19,7 +19,14 @@ Clique duas vezes em `Simulador.exe`.
 Nao e necessario instalar nada.
 
 ### Script Python
-O projeto não depende de nenhuma biblioteca externa — só da biblioteca padrão do Python (`tkinter`).
+
+- Requisitos:
+    - Python >=3.10
+    - `python-tk`
+        - Windows: incluso no Python por padrão;
+        - Linux e MacOS: pode ser necessário instalar via gerenciador de pacotes; 
+
+Rode o script `main.py`:
 
 ```
 python main.py
@@ -63,12 +70,13 @@ simulador_escalonamento/
 
 ## Documentação
 
-- [Tutorial de execucao](./tutorial_execucao.pdf)
-- [Tutorial de uso](./tutorial_uso.pdf)
-- [Documentacao tecnica](./documentacao_projeto.pdf)
+- [Tutorial de execucao](./docs/tutorial_execucao.pdf)
+- [Tutorial de uso](./docs/tutorial_uso.pdf)
+- [Documentacao tecnica](./docs/documentacao_projeto.pdf)
 
 ## Por onde começar
 
-1. Rode `python main.py` e explore as abas: Tarefas, Parâmetros, Resultado e Lote de Cenários.
+1. Abra o arquivo executável (ou clone o projeto e rode `python main.py`) e explore as abas: Tarefas, Parâmetros, Resultado e Lote de Cenários.
 2. Cadastre um conjunto de tarefas (manualmente ou por sorteio) e simule com os diferentes algoritmos.
 3. Consulte o código em `src/` para entender a implementação — veja "Arquivos de código" acima.
+4. Consulte a documentacao tecnica para entender o codigo.
